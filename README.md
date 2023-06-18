@@ -1,4 +1,4 @@
-# My Blog Website
+# 🌐 My Blog Website
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-v14.17.3-green.svg?logo=node.js)](https://nodejs.org/)
@@ -7,15 +7,16 @@
 
 > A blog website built with Node.js and EJS, allowing the admin to manage posts and showcase them to users.
 
+![Website Preview](./preview.png)
 
-## Features
+## 🚀 Features
 
 - **User Authentication**: Secure login and registration using bcrypt for password hashing and JWT for session management.
 - **Admin Dashboard**: An intuitive interface for managing blog posts, including creating, editing, and deleting posts.
 - **Post Display**: Showcasing blog posts on the frontend, allowing users to read, comment, and interact with them.
 - **Search Functionality**: Search for posts based on keywords or tags, providing a convenient way to find relevant content.
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
 

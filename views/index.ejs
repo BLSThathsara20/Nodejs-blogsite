@@ -1,0 +1,35 @@
+<div class="author">
+    <h1 class="author__heading">Hi, I am BLST.</h1>
+    <p class="author__body">Web Dev</p>
+</div>
+
+<!-- <img src="/public/img/hero.jpg" alt="hero"> -->
+
+<section class="articles">
+    <h2 class="articles__heading">Latest posts</h2>
+
+    <ul class="article-ul">
+        <li>
+            <a href="#">
+                <span>Post Title</span>
+                <span class="article-list__date">Post Title</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="article-ul">
+        <% data.forEach(post => { %>
+            <li>
+                <a href="/post/<%= post._id %>" class="<%= post._id %>">
+                  <span><%= post.title %></span>
+                  <span class="article-list__date"><%= post.CreatedAt.toDateString() %></span>
+                </a>
+              </li>
+        <% }) %>
+      </ul>
+
+      <% if (nextPage !== null) { %>
+        <a href="/?page=<%= nextPage %>" class="pagination">&lt; view order</a>
+      <% } %>
+    
+</section>

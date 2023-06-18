@@ -7,8 +7,6 @@
 
 > A blog website built with Node.js and EJS, allowing the admin to manage posts and showcase them to users.
 
-![Website Preview](./preview.png)
-
 ## 🚀 Features
 
 - **User Authentication**: Secure login and registration using bcrypt for password hashing and JWT for session management.
